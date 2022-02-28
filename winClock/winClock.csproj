@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\backGround.png" />
+    <None Remove="images\clock.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\backGround.png" />
+    <Resource Include="images\clock.ico" />
+  </ItemGroup>
+
 </Project>
