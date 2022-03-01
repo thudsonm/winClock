@@ -45,6 +45,11 @@ namespace winClock
                 secondHand.Angle = DateTime.Now.Second * 6;
                 minuteHand.Angle = DateTime.Now.Minute * 6;
                 hourHand.Angle = (DateTime.Now.Hour * 30) + (DateTime.Now.Minute * 0.5);
+
+                labelInfo.Content = "winClock by Thomas";
+                labelDate.Content = DateTime.Now.Date;
+                labelTime.Content = DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes.ToString("00") + ":" + DateTime.Now.TimeOfDay.Seconds.ToString("00");
+
             }));
         }
 
