@@ -52,7 +52,9 @@
                     <RotateTransform x:Name="hourHand" CenterX="0" CenterY="70" Angle="0" />
                 </Rectangle.RenderTransform>
             </Rectangle>
-
+            
+            <Ellipse Width="10" Height="10" Fill="LightGray" Canvas.Left="150" Canvas.Top="150"/>
+            
         </Grid>
     </Viewbox>
 
